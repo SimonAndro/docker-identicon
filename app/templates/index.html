@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Docker Hello</title>
+</head>
+
+<body>
+    <form method="POST">
+        Hello <input type="text" name="name" value="{{ name }}">
+        <input type="submit" value="submit">
+    </form>
+    <p>You look like a:
+        <img src="/monster/{{ name_hash }}" />
+</body>
+
+</html>
